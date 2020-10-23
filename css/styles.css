@@ -1,0 +1,145 @@
+.top-bar, #search-box, .nav-list li, .nav-list a {
+	background-color: #002D45;
+	font-family: Proxima Nova,helvetica neue,helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 110%;
+	color: #FFFFFF;
+}
+
+.top-bar {
+	color: #FFFFFF;
+	height: 40px;
+	margin: 0px;
+	padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+		display: inline;
+}
+
+.nav-list li {
+	    float: left;
+}
+
+.nav-list a {
+    display: inline;
+    padding: 8px;
+		text-decoration: none;
+}
+
+/* change the color of the menu item corresponding to the page user is on, per user story 2 */
+#selected {
+  color: red;
+}
+
+/* formatting for help list */
+.format-ul {
+  margin: 5px;
+}
+
+/* formatting for help list steps */
+.format-list {
+  font-size: 2em;
+}
+
+/* formatting for help content */
+.outline {
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
+  width: 90%;
+}
+
+.format-content {
+  width: 90%;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 1.5em;
+}
+
+/* formatting for content emphasized by italics */
+#italics {
+  font-style: italic;
+}
+
+#search-box {
+	margin-left: auto;
+  margin-right: 0;
+  color: black;
+ }
+
+#search-controls {
+	background-color: #ffffff;
+	padding: 15px 15px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+#filter-parts {
+	float: right;
+	margin-left: auto;
+	margin-right: 0;
+	padding-right: 5px;
+ }
+
+.catalog-part {
+  margin: 2px;
+  padding: 0px 5px;
+  float: left;
+  border-style: solid;
+  border-color: #808285;
+  border-width: 1px;
+  width: 150px;
+  height: 200px;
+  line-height: 200px;
+	display: table-cell;
+  position: relative;
+}
+
+.catalog-part img {
+  height: auto;
+	vertical-align: middle;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f4f4f4;
+	display: inline-table;
+}
+
+.catalog-part:hover .overlay {
+  opacity: 0.75;
+}
+
+p {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  line-height: 1;
+	overflow: scroll;
+}
+
+.catalog-part p {
+	vertical-align: middle;
+	text-align: center;
+  color: black;
+	display: table-cell;
+	font-size: 80%;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+
