@@ -54,6 +54,7 @@
   width: 90%;
 }
 
+/* formatting for help content */
 .format-content {
   width: 90%;
   overflow: hidden;
@@ -64,6 +65,32 @@
 /* formatting for content emphasized by italics */
 #italics {
   font-style: italic;
+}
+
+/* Formatting for Part Detail page */
+.catalog-detail img {
+  padding: 10px;
+  height: 500px;
+  width: 25%;
+  float: left;
+  margin-right: 25px;
+}
+
+.format-detail-overview {
+  overflow: hidden;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.format-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+}
+
+.format-detail {
+  font-size: 1em;
+  overflow: hidden;
 }
 
 #search-box {
@@ -80,7 +107,6 @@
     display: flex;
     align-items: center;
 }
-
 
 #filter-parts {
 	float: right;
@@ -141,5 +167,6 @@ p {
 	font-size: 80%;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+
 
 
