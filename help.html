@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Help: Coding for MGR</title>
+</head>
+<body>
+<!-- replicate the top of the main(index) page per user story 1 -->
+<div class="top-bar">
+    <ul class="nav-list">
+        <li><a href="index.html">Home</a></li> <!-- link back to main page per user story 3 -->
+        <li><a href="#">Parts</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#" id="selected">Help</a></li> <!-- change color of this option to indicate it's selected per user story 2 -->
+    </ul>
+
+    <div id="search-box">
+    <input type="text" name="parts-search" placeholder="Mfg., Model, or Part Number" size=30>
+    </div>
+</div>
+<!-- end of replication -->
+
+<!-- Work Order process, in order, per user story 4 -->
+<h1>Work Order Process</h1>
+<br>
+<ul class="format-ul">
+    <li class="format-list">Step 1: Review Work Order Specifications to understand the situation</li>
+    <li class="format-list">Step 2: Locate and Navigate to Job site</li>
+    <li class="format-list">Step 3: Assess situation and Determine Next Steps</li>
+    <li class="format-list">Step 4: Make on-the-spot fixes, if possible</li>
+
+    <!-- Step 5 is 'selected' and displayed, per user story 5 -->
+    <li class="format-list" id="selected">Step 5: Order replacement parts</li>
+    <div class="outline">
+        <p class="format-content">From the Home menu option,</p>
+        <p class="format-content">- Use the search field (upper right-hand corner) OR</p>
+        <p class="format-content">- Use the drop-down search boxes (just below the open-text search field)</p>
+        <p class="format-content">-	Hover over search results to see part details including price and delivery turn-around</p>
+        <p class="format-content" id="italics">Sort your results by Popularity, Price, or Manufacturer by using the “Sort By” selector</p>
+    </div>
+
+    <li class="format-list">Step 6: Order replacement systems</li>
+    <li class="format-list">Step 7: Install replacement parts</li>
+    <li class="format-list">Step 8: Install replacement systems</li>
+    <li class="format-list">Step 9: Close out Work Order</li>
+</ul>
+
+</body>
+</html>
