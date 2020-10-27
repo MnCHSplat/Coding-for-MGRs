@@ -31,22 +31,21 @@
 		text-decoration: none;
 }
 
-/* change the color of the menu item corresponding to the page user is on, per user story 2 */
+/* change the color of the menu item corresponding to the page user is on, per user Epic 1, story 2 */
 #selected {
   color: red;
 }
 
-/* formatting for help list */
+/* formatting for help content page */
 .format-ul {
   margin: 5px;
 }
 
 /* formatting for help list steps */
 .format-list {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
-/* formatting for help content */
 .outline {
   outline-color: black;
   outline-style: solid;
@@ -54,18 +53,19 @@
   width: 90%;
 }
 
-/* formatting for help content */
 .format-content {
   width: 90%;
   overflow: hidden;
   margin: 20px;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
-/* formatting for content emphasized by italics */
+/* formatting for content emphasized with italics */
 #italics {
   font-style: italic;
 }
+/* End formatting for help content page */
+
 
 /* Formatting for Part Detail page */
 .catalog-detail img {
@@ -92,6 +92,15 @@
   font-size: 1em;
   overflow: hidden;
 }
+/*  End formatting for Part Detail page */
+
+/* Formatting for index */
+.format-text {
+  text-align: center;
+  color: black;
+}
+/* End formatting for index */
+
 
 #search-box {
 	margin-left: auto;
@@ -167,6 +176,5 @@ p {
 	font-size: 80%;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
-
 
 
